@@ -23,6 +23,18 @@ foreach ($article as $value) {
 }
 ?>
 </ul>
+<ul>
+<?php
 
+if (isset($article)) {
+
+    foreach ($article as $value) {
+        echo "<li>$value</li>";
+    }
+
+}
+
+?>
+</ul>
 </body>
 </html>
